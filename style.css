@@ -434,6 +434,29 @@ h1{
     background-position: center;
     background-size: cover;
 }
+.org{
+    border-radius: 40px;
+    background-color:rgba(94, 94, 94, 0.3);
+    margin: 30px;
+    width: 90%;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+    background-image: url(organizacao.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.vid{
+    border-radius: 40px;
+    background-color:rgba(94, 94, 94, 0.3);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
 .sobremim{
     background-color:rgba(94, 94, 94, 0.3);
     z-index: -2;
@@ -455,12 +478,16 @@ h1{
     margin: 10px;
     font-size: large;
     box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2);
+    max-width: 50%;
 }
-.interesses{
+.interesses {
     border-radius: 50px;
-    background-color:rgba(94, 94, 94, 0.3);
+    background-color: rgba(94, 94, 94, 0.3);
     margin: 20px;
-    width: 40rem;
+    max-width: 600px;
+    width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
     padding: 10px;
     box-shadow: 0 0 10px 10px rgb(255, 139, 62);
     display: flex;
@@ -490,15 +517,47 @@ h1{
 }
 .infob{
     border-radius: 50px;
-    background-color:rgba(94, 94, 94, 0.3);
+    background-color: rgba(94, 94, 94, 0.3);
     margin: 20px;
-    width: 40rem;
+    max-width: 600px;
+    width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
     padding: 10px;
-    box-shadow: 0 0 10px 10px rgba(255, 243, 210, 0.863);
+    box-shadow: 0 0 10px 10px rgb(255, 243, 224);
     display: flex;
     justify-content: center;
     text-align: center;
     background-image: url(letra.jfif);
     background-position: center;
     background-size: cover;
+}
+.emt{
+    border-radius: 40px;
+    background-color:rgba(94, 94, 94, 0.3);
+    width: 90%;
+    margin: 40px;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+    background-image: url(livro.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.centro{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.emtdesc{
+    background-color:rgba(94, 94, 94, 0.3);
+    border-radius: 40px;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 45px;
+    font-size: large;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2);
 }
