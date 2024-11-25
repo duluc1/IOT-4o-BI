@@ -12,3 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
         navMenu.classList.remove("active");
     }));
 });
+document.getElementById('vermais').addEventListener('click', function() {
+    var moreInfo = document.getElementById('botao');
+    if (moreInfo.style.display === 'none') {
+        moreInfo.style.display = 'block';
+        this.textContent = 'Ver Menos';
+    } else {
+        moreInfo.style.display = 'none';
+        this.textContent = 'Show More Info';
+    }
+});

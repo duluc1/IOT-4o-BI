@@ -383,9 +383,13 @@ h1{
     background-position: center;
     background-size: cover;
 }
-.column{
+.column {
     display: flex;
     flex-direction: column;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
 }
 .garimg{
     width: 45%;
@@ -396,6 +400,7 @@ h1{
 }
 .garimg2{
     width: 45%;
+    max-width: 100%;
     height: auto;
     border-radius: 40px;
     box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2);
@@ -532,6 +537,23 @@ h1{
     background-position: center;
     background-size: cover;
 }
+.habilidades{
+    border-radius: 50px;
+    background-color: rgba(94, 94, 94, 0.3);
+    margin: 20px;
+    max-width: 600px;
+    width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    padding: 10px;
+    box-shadow: 0 0 10px 10px rgb(255, 240, 25);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(habs.webp);
+    background-position: center;
+    background-size: cover;
+}
 .emt{
     border-radius: 40px;
     background-color:rgba(94, 94, 94, 0.3);
@@ -559,5 +581,37 @@ h1{
     margin: 10px;
     margin-bottom: 45px;
     font-size: large;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2);
+}
+.botaoinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#vermais {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color:rgba(94, 94, 94, 0.3);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.2);
+}
+
+#vermais:hover {
+    background-color:rgba(94, 94, 94, 0.5);
+}
+#botao {
+    margin-top: 10px;
+    font-size: large;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 40px; 
+    background-color:rgba(94, 94, 94, 0.3);
+    display: none;
     box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2);
 }
